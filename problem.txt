@@ -1,0 +1,14 @@
+Create a Library system which has following models
+
+Section ( 1 Book can belong to only one section at a time but 1 section can have multiple books )
+Books ( Book can be written by 1 or more author and also contains name, body )
+Author ( an author can write one or more books and he also has first_name and last_name)
+CheckedOut (one book can be checked out by 1 user at a time)
+
+Write CRUD for all these models and also write api endpoints that can help with below situations
+
+find books that are checked out
+find all books written by an author
+find books in a section
+find books in a section that are not checked out
+find books of 1 author inside a section
